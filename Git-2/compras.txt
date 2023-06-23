@@ -2,3 +2,5 @@ Lapiz
 Birome
 Cuaderno
 Papel A4
+Boligoma
+Tijera
