@@ -32,6 +32,7 @@ img{
   width: 100%;
   border: 2px solid blue;
   padding: 5px 15px 5px 1px;
+  box-shadow: -13px -12px 29px 0px- rgba(22,104,227,0.75);
 
  
 }
