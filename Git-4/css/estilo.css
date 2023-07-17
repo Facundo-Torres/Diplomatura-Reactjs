@@ -4,6 +4,9 @@ h1{
   font-size:10vh;
  
 }
+h3{
+  font-family: 'Lato', sans-serif;
+}
 header {
   background: #041B7F;
    padding: 10px 15px 1px 45px;
@@ -20,7 +23,7 @@ img{
    width: 30%;
    color: white;
    padding: 20px;
-   font-family: 'Lato', sans-serif;
+  
    
   }
 .perfil{
