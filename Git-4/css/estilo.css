@@ -1,7 +1,7 @@
 h1{
    font-family: "Courier New",monospace;
   color: white;
-  font-size:15vh;
+  font-size:10vh;
  
 }
 header {
@@ -20,11 +20,12 @@ img{
    width: 30%;
    color: white;
    padding: 20px;
+   
   }
 .perfil{
   width: 100%;
   border: 2px solid blue;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px 5px 1px;
  
 }
 
