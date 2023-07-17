@@ -20,6 +20,7 @@ img{
 }
 .titulos{
    background-color: #041B7F;
+   border-radius: 45px 154px 0px 87px;
    width: 30%;
    color: white;
    padding: 20px;
@@ -30,6 +31,7 @@ img{
   width: 100%;
   border: 2px solid blue;
   padding: 5px 15px 5px 1px;
+
  
 }
 
