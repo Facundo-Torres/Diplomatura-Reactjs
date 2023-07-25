@@ -1,5 +1,6 @@
 .Ejercicio1{
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: flex-end;
 	border-color: black;
@@ -32,12 +33,16 @@
 }
 .Ejercicio2{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	border-color: black;
     border: solid;
 }
 .Ejercicio3{
 	display: flex;
-	border-color: black;
+	flex-wrap: wrap;
     border: solid;
+	position: relative; /*darle aire entre ellos*/
+	top:30px;
+	
 }
