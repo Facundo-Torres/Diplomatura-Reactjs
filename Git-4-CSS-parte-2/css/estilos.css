@@ -30,3 +30,14 @@
 	font-size: 30px;
 	
 }
+.Ejercicio2{
+	display: flex;
+	justify-content: space-between;
+	border-color: black;
+    border: solid;
+}
+.Ejercicio3{
+	display: flex;
+	border-color: black;
+    border: solid;
+}
