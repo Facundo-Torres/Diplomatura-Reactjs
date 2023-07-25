@@ -33,16 +33,19 @@
 }
 .Ejercicio2{
 	display: flex;
+	position: relative;
+	top: 30px;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	border-color: black;
     border: solid;
 }
 .Ejercicio3{
-	display: flex;
+	display: inline-flex;
+	position: relative;
+	border: solid;
+	top: 50px;
 	flex-wrap: wrap;
-    border: solid;
-	position: relative; /*darle aire entre ellos*/
-	top:30px;
-	
+	justify-content: center;
+	flex-direction: row-reverse;
 }
