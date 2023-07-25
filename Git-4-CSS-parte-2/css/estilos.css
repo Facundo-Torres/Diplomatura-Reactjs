@@ -45,6 +45,8 @@
 	position: relative;
 	border: solid;
 	top: 50px;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: row-reverse;
