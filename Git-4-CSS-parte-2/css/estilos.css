@@ -45,7 +45,7 @@
 	display: inline-flex;
 	position: relative;
 	border: solid;
-	top: 50px;
+	top: 200px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	flex-wrap: wrap;
