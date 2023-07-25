@@ -2,6 +2,8 @@
 	background-color: blue;
 	/* display: inline-flex; */
 	display: flex;
+	align-items: center;
+
 }
 
 .item{
@@ -10,6 +12,5 @@
 	height: 100px;
 	margin: 10px;
 	font-size: 30px;
-	align-items: center;
-	/*se alinean items*/
+	
 }
