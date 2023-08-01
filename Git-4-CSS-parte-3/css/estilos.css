@@ -55,8 +55,8 @@ aside {
 	#contenedor{
 		width: auto;
 	}
+	aside {
+		width: auto;
+	}
 }
 
-aside {
-	width: auto;
-}
