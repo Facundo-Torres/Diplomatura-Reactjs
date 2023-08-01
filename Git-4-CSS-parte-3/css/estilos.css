@@ -39,17 +39,11 @@ aside {
 		font-size: 24px;
 	}
     nav{
-		background: #CC3910;
-	}
-	
-	nav ul li {
-		display: block;
-		margin: 10px 0;
-		
-
-	}
+		background: #ccb010;
+	}	
 	section {
 		width: auto;
+		margin: 0;
 	}
 	
 	#contenedor{
