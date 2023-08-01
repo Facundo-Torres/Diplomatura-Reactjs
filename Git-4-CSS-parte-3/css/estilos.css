@@ -33,16 +33,13 @@ aside {
 	float: right;
 	width: 190px;
 }
-@media screen and (max-width: 799px) {
-		body {
-		  font-size: 14px;
-		}
-	  
-		h1 {
-		  font-size: 24px;
-		}
-	  
-		p {
-		  font-size: 14px;
-		}
-	  }
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 24px;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 10px 0;
+	}
+}
