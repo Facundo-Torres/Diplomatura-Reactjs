@@ -48,4 +48,12 @@ aside {
 		
 
 	}
+	section {
+		width: auto;
+	}
+	
+	#contenedor{
+		width: auto;
+	}
 }
+
