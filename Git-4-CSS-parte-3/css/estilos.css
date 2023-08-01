@@ -41,5 +41,7 @@ aside {
 	nav ul li {
 		display: block;
 		margin: 10px 0;
+	background: #CCC59E;
+
 	}
 }
