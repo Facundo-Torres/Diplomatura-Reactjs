@@ -41,7 +41,7 @@ aside {
     nav{
 		background: #ccb010;
 		color: #000;
-		width: auto;
+		width: 100%;
 	}	
 	section {
 		width: auto;
