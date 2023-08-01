@@ -46,6 +46,7 @@ aside {
 	section {
 		width: auto;
 		margin: 0;
+		padding: 0px 10px 0px 10px;
 		border-left-style: solid;
 		border-left-width: 0px;
 		border-right-width: 0px;
