@@ -1,9 +1,12 @@
+
 @media only screen and (max-width: 600px) {
     /* Estilos para el encabezado */
     .bg-dark {
       padding: 10px 0;
     }
-    
+    .body{
+        box-sizing: content-box;
+    }
     .nav {
       flex-direction: column;
       align-items: flex-start;
