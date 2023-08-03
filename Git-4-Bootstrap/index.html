@@ -11,43 +11,84 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-fluid" style="background-color: blue;">
-            <!-- Content here -->
-            <h1>Bootstrap</h1>
+    <header class="p-3 bg-dark text-white">
+    <!--header con nav y logeo-->
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-4-Bootstrap/img/Logo-ejemplo.png" />
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Deptos</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Casas</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Contacto</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Empresa</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
         </div>
     </header>
 
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-    </ul>
+  
 
 
-
-    <div class="container">
+    <div class="container fs-3 mt-5">
         <!-- Content here -->
+        <p>Probando tamaño texto ....</p>
+         
+    </div>
+    <div class="container mb-5">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione debitis ipsum nostrum architecto. Harum
             pariatur provident nemo officiis ad inventore vitae, non reprehenderit sed consectetur nostrum eligendi, eos
-            cumque laboriosam!</p>
+            cumque laboriosam!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione debitis ipsum nostrum architecto. Harum
+            pariatur provident nemo officiis ad inventore vitae, non reprehenderit sed consectetur nostrum eligendi, eos
+            cumque laboriosam!Lorem</p>
     </div>
 
     <div class="container text-center">
         <div class="row">
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
+            <div class="col-8">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Danger card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="row">
             <div class="col-8">
@@ -117,7 +158,15 @@
                     </div>
                 </form>
             </div>
-            <div class="col-4">col-4</div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
