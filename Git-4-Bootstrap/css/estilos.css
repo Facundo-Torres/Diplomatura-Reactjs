@@ -1,78 +1,88 @@
-
 @media only screen and (max-width: 600px) {
+
     /* Estilos para el encabezado */
     .bg-dark {
-      padding: 10px 0;
+        padding: 10px 0;
     }
-    .body{
+
+    .body {
         box-sizing: content-box;
     }
+
     .nav {
-      flex-direction: column;
-      align-items: flex-start;
-      margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
     }
-    
+
     .nav-link {
-      margin: 5px 0;
-      padding: 5px;
-      text-align: left;
+        margin: 5px 0;
+        padding: 5px;
+        text-align: left;
     }
-    
+
     .text-end {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .row{
+
+    .row {
         display: block;
     }
+
     /* Estilos para el contenido */
     .container {
-      padding: 10px;
-      width:100%;
-    }
-    
-    .fs-3 {
-      font-size: 1.5rem;
-    }
-    
-    .mb-5 {
-      margin-bottom: 20px;
-    }
-    
-    .img-fluid {
-      max-width: 100%;
-      height: auto;
-    }
-    
-    /* Estilos para el formulario */
-    .form-control {
-      margin-bottom: 10px;
-    }
-    
-    /* Estilos para los botones */
-    .btn {
-      margin-right: 5px;
-      margin-bottom: 5px;
-    }
-    
-    /* Estilos para el pie de página */
-    .bg-light {
-      padding: 10px 0;
-    }
-    
-    .text-center {
-      text-align: left;
-    }
-    .col-4{
-        width:100%;
-    }
-    .card2{
-        padding: 30px;
-    }
-    .form1{
+        padding: 10px;
         width: 100%;
     }
-  }
-  
+
+    .fs-3 {
+        font-size: 1.5rem;
+    }
+
+    .mb-5 {
+        margin-bottom: 20px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Estilos para el formulario */
+    .form-control {
+        margin-bottom: 10px;
+    }
+
+    /* Estilos para los botones */
+    .btn {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    /* Estilos para el pie de página */
+    .bg-light {
+        padding: 10px 0;
+    }
+
+    .text-center {
+        text-align: left;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .card2 {
+        padding: 30px;
+    }
+
+    .form1 {
+        width: 100%;
+    }
+
+    .novedades {
+        width: 100%;
+    }
+}
