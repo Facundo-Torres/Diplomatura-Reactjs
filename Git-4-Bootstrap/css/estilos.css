@@ -25,6 +25,7 @@
     /* Estilos para el contenido */
     .container {
       padding: 10px;
+      width:100%;
     }
     
     .fs-3 {
@@ -59,5 +60,6 @@
     .text-center {
       text-align: left;
     }
+    
   }
   
