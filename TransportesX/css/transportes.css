@@ -28,3 +28,16 @@ nav ul{
     padding: 0;
     display: flex;
 }
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;    
+}
+nav ul li a:hover{
+    background-color: rgba (0,0,0,0.3);
+}
