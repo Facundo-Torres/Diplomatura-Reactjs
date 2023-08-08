@@ -87,3 +87,7 @@ h2{
     display: block;
     margin: 12px 0;
 }
+.holder{
+    max-width: 960px;
+    margin: 0 atuo;
+}
