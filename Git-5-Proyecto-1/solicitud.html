@@ -208,22 +208,29 @@
 
     <!--footer fin-->
 
-    <!-- Script para agregar el campo de entrada de fecha -->
     <script>
         // Espera a que el DOM esté completamente cargado
         document.addEventListener("DOMContentLoaded", function () {
-            // Obtén una referencia al elemento donde deseas agregar el input de fecha
-            const dateInputContainer = document.querySelector(".col-12");
-
-            // Crea el elemento de input de fecha
-            const dateInput = document.createElement("input");
-            dateInput.type = "date";
-            dateInput.classList.add("form-control");
-            dateInput.id = "validationCustom06"; // Establece el id para la validación
-            dateInput.required = true;
-
-            // Agrega el input de fecha al contenedor
-            dateInputContainer.insertBefore(dateInput, dateInputContainer.children[0]);
+            // Obtén una referencia al elemento donde deseas agregar los inputs de fecha
+            const fromDateContainer = document.querySelector(".col-md-6:nth-child(4)");
+            const toDateContainer = document.querySelector(".col-md-6:nth-child(5)");
+    
+            // Crea los elementos de input de fecha "desde" y "hasta"
+            const fromDateInput = document.createElement("input");
+            fromDateInput.type = "date";
+            fromDateInput.classList.add("form-control");
+            fromDateInput.id = "validationCustom06"; // Cambiar a un ID único
+            fromDateInput.required = true;
+    
+            const toDateInput = document.createElement("input");
+            toDateInput.type = "date";
+            toDateInput.classList.add("form-control");
+            toDateInput.id = "validationCustom07"; // Cambiar a un ID único
+            toDateInput.required = true;
+    
+            // Agrega los inputs de fecha "desde" y "hasta" a los contenedores respectivos
+            fromDateContainer.appendChild(fromDateInput);
+            toDateContainer.appendChild(toDateInput);
         });
     </script>
 
