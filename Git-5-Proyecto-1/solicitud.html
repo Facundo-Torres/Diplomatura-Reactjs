@@ -15,18 +15,18 @@
 </head>
 
 <body>
-    <header class="p-3 bg-dark text-white">
+    <header class="p-3 bg-danger text-white">
         <!--header con nav y logeo-->
         <div class="container">
 
-            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <nav class="navbar navbar-expand-lg bg-danger" data-bs-theme="danger">
 
                 <div class="container-fluid">
                     <div class="container">
                         <a class="navbar-brand" href="#">
-                            <img src="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/img/logo.svg"
+                            <img src="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/img/logosoybnb.png"
                                 alt="
-                          logo" width="30" height="24">
+                          logo" width="auto" height="auto">
                         </a>
                     </div>
 
@@ -82,7 +82,73 @@
     </header>
 
     <main>
-     
+
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                    Seleccione una provincia.
+                </div>
+            </div>
+            <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Tel</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Por favor ingrese un telefono de contacto.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom06" class="form-label">Fecha Desde</label>
+                <input type="date" class="form-control" id="validationCustom06" required>
+                <div class="invalid-feedback">
+                    Por favor ingrese fecha de reserva
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom07" class="form-label">Fecha Hasta</label>
+                <input type="date" class="form-control" id="validationCustom07" required>
+                <div class="invalid-feedback">
+                    Por favor ingrese fecha de reserva
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+
 
 
 
@@ -142,6 +208,24 @@
 
     <!--footer fin-->
 
+    <!-- Script para agregar el campo de entrada de fecha -->
+    <script>
+        // Espera a que el DOM esté completamente cargado
+        document.addEventListener("DOMContentLoaded", function () {
+            // Obtén una referencia al elemento donde deseas agregar el input de fecha
+            const dateInputContainer = document.querySelector(".col-12");
+
+            // Crea el elemento de input de fecha
+            const dateInput = document.createElement("input");
+            dateInput.type = "date";
+            dateInput.classList.add("form-control");
+            dateInput.id = "validationCustom06"; // Establece el id para la validación
+            dateInput.required = true;
+
+            // Agrega el input de fecha al contenedor
+            dateInputContainer.insertBefore(dateInput, dateInputContainer.children[0]);
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
