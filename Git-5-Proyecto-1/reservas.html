@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo 3 - Proyecto 1 - Reservas</title>
+    <title>Modulo 3 - Proyecto 1- Estructura</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/css/estilos.css" rel="stylesheet">
-    <link href="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/css/casas.css" rel="stylesheet">
+    <link href="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/css/reserva.css" rel="stylesheet">
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
@@ -65,7 +64,9 @@
                                         <li>
                                             <hr class="dropdown-divider">
                                         </li>
-                                        <li><a class="dropdown-item active" href="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/reservas.html">Reservas</a></li>
+                                        <li><a class="dropdown-item active"
+                                                href="https://facundo-torres.github.io/Diplomatura-Reactjs/Git-5-Proyecto-1/reservas.html">Reservas</a>
+                                        </li>
                                     </ul>
                                 </li>
 
@@ -82,7 +83,10 @@
     </header>
 
     <main>
-
+        <div class="reserva fs-3 mt-5">
+            <h1>Pida su reserva a través de este formulario</h1>
+            <p>A la brevedad se le respondera</p>
+        </div>
         <form class="row g-3 needs-validation" novalidate>
             <div class="col-md-4">
                 <label for="validationForm01" class="form-label">Nombre</label>
@@ -145,7 +149,8 @@
 
             <div class="col-12">
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Ingrese algun comentario" id="floatingTextarea"></textarea>
+                    <textarea class="form-control" placeholder="Ingrese algun comentario"
+                        id="floatingTextarea"></textarea>
                     <label for="floatingTextarea">Commentarios</label>
                 </div>
             </div>
