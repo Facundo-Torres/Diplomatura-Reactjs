@@ -8,3 +8,6 @@ form{
   main{
     margin:15%;
   }
+  .a:active{
+    color:black;
+  }
