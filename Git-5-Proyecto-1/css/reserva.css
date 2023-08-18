@@ -5,7 +5,9 @@ form{
     padding: 0px 25px 25px 25px;
    
   }
- 
+  main{
+    margin:5%;
+  }
   .a:active{
     color:black;
   }
