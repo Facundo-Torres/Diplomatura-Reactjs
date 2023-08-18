@@ -7,7 +7,7 @@ form {
 }
 
 main {
-  margin: 10%;
+  margin: 8%;
 }
 
 a:active {
@@ -15,4 +15,8 @@ a:active {
 }
 .reserva{
   margin-bottom: 35px;
+}
+.bienvenida{
+  border: 2px solid #3498db; /* Establece el borde de 2px de ancho y color azul (#3498db) */
+            padding: 20px; /* Agrega espacio interno al div */
 }
