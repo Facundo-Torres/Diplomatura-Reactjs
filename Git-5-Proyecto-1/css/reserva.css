@@ -18,5 +18,5 @@ a:active {
 }
 .bienvenida{
   border: 2px solid #3498db; /* Establece el borde de 2px de ancho y color azul (#3498db) */
-            padding: 20px; /* Agrega espacio interno al div */
+  padding: 20px; /* Agrega espacio interno al div */
 }
