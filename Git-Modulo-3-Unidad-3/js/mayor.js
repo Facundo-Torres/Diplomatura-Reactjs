@@ -1,5 +1,5 @@
 
-function encontrarMayor(arr) {
+function buscarMayor(arr) {
     let mayor = arr[0];
 
     for (let i = 1; i < arr.length; i++) {
@@ -20,7 +20,7 @@ function mostrarMayor() {
         numerosArray[i] = parseFloat(numerosArray[i]);
     }
 
-    const mayor = encontrarMayor(numerosArray);
+    const mayor = buscarMayor(numerosArray);
 
     resultado.textContent = `El número mayor es: ${mayor}`;
 }
