@@ -2,3 +2,7 @@
     color:red;
     font-size: 22px;
 }
+img {
+    border-radius: 8px;
+    height: 250px;
+  }
