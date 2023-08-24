@@ -1,6 +1,7 @@
 .resultado p{
     color:red;
     font-size: 22px;
+    padding-left: 20px;
 }
 .img {
     border-radius: 8px;
@@ -12,4 +13,5 @@
   .resultado2 p{
     color:blue;
     font-size: 22px;
+    padding-left: 20px;
 }
