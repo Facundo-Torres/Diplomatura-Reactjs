@@ -6,3 +6,6 @@ img {
     border-radius: 8px;
     height: 250px;
   }
+  body{
+    padding: 10px;
+  }
