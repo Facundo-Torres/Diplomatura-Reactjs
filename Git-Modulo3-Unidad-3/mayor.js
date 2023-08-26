@@ -6,10 +6,10 @@ while (continuar) {
 
     if (!isNaN(numero)) {
         numeros.push(numero);
-        const respuesta = prompt('¿Desea agregar otro número? (si/no)').toLowerCase();
+        const respuesta = prompt('Queres ingresar otro numero? (si/no)').toLowerCase();
         continuar = respuesta === 'si';
     } else {
-        alert('Debe ingresar un número válido.');
+        alert('Por favor ingresar un número válido.');
     }
 }
 
