@@ -35,7 +35,7 @@ var alumnosDesaprobados = alumnos.filter(function (alumno) {
 
 var aprobadosList = document.getElementById('aprobados-list');
 var desaprobadosList = document.getElementById('desaprobados-list');
-//fn para aprobados
+//fn para aprobados lista
 alumnosAprobados.forEach(function (alumno) {
     var listItem = document.createElement('li');
     listItem.textContent = alumno.nombre + '  : ' + alumno.nota;
