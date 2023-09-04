@@ -21,7 +21,7 @@ function getRandomColor() {
     return color;
 }
 reset.addEventListener('click', () => {
-    // Restaurar el color de fondo inicial de cada cuadrado
+    // Restaura el color de fondo
     cuadrados.forEach((cuadrado) => {
         cuadrado.style.backgroundColor = '#fff'; // Cambia esto al color inicial deseado
     });
