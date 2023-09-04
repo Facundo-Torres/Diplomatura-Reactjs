@@ -6,12 +6,12 @@ cuadrados.forEach((cuadrado, index) => {
         // asi generamos un color aleatorio
         const randomColor = getRandomColor();
         
-        // se cambia el color de fondo del cuadrado clickeado
+        // se cambia el color de fondo del cuadrado 
         cuadrado.style.backgroundColor = randomColor;
     });
 });
 
-// Función para generar un color aleatorio en formato #RRGGBB
+// Fn para generar un color aleatorio en formato #RRGGBB
 function getRandomColor() {
     const letters = '0123456789ABCDEF'; // dígitos hexadecimales y letras para los colores
     let color = '#';
