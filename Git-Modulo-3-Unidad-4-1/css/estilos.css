@@ -15,6 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     border: 6px solid #000; /* borde a c/ cuadrado */
-    background-color: #fff; /* fondo inicial */
+    background-color: #fff; 
     transition: background-color 0.3s ease-in-out; /* transicion */
 }
