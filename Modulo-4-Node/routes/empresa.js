@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET Empresa. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Facundo Torres' });
+  res.send('Hola Empresa');
 });
 
 module.exports = router;
