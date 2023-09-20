@@ -24,7 +24,9 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/empresa', empresaRouter);
 
-
+app.get('/s', function(req, res){
+  res.send('Paginda de inicio')
+})
 app.get('/casas', function(req, res){
   res.send('Paginda de Casas')
 })
